@@ -218,3 +218,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 data/cleaned_diabetes.csv
+data/df_train.csv
+data/df_test.csv
