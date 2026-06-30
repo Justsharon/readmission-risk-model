@@ -1,0 +1,6 @@
+Method,Train size,Train pos%,AUC,Precision,Recall,F2,TP,FN
+class_weight=balanced (current),78283,11.3%,0.6612,0.1921,0.5289,0.3916,1236,1101
+SMOTE,138826,50.0%,0.6413,0.1775,0.5379,0.3826,1257,1080
+RandomUnderSampler,17740,50.0%,0.661,0.1931,0.5302,0.3929,1239,1098
+SMOTE + TomekLinks,138520,50.0%,0.6412,0.1776,0.5387,0.383,1259,1078
+No imbalance handling (naive),78283,11.3%,0.6613,0.4713,0.0175,0.0217,41,2296
